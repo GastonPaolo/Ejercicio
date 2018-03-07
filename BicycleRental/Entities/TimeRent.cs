@@ -3,7 +3,6 @@
     public class TimeRent
     {
         public string IdentifyTime { get; set; }
-        public int TimeNumerForRent { get; set; }
         public Price Prices { get; set; }
 
         public TimeRent()
@@ -11,12 +10,11 @@
             Prices = new Price();
         }
 
-        public TimeRent CalculateTime (string identifyTime, int timeNumber)
+        public TimeRent CalculateTime (string identifyTime)
         {
             TimeRent timeRent = new TimeRent
                                         {
                                             IdentifyTime = identifyTime,
-                                            TimeNumerForRent = timeNumber,
                                             Prices = new Price()
                                         };
             switch (identifyTime.ToLower())

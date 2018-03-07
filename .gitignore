@@ -1,4 +1,7 @@
 BicycleRental/obj/
 BicycleRental/bin/
 BicycleRental.Test/obj/
-
+RentalBicycle.Test/bin/
+RentalBicycle.Test/obj/
+RentalBicycle.Test/bin/Debug/
+.vs/BicycleRental/v14/.suo

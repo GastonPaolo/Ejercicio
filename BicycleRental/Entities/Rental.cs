@@ -26,14 +26,15 @@
 
         public void CalculatePrice(string identifyTime, int timeNumber)
         {
-            var price = CaluclateTime(identifyTime, timeNumber);
+            var price = CaluclateTime(identifyTime);
             TotalPrice = price * BicycleCount;
+            TotalPrice = TotalPrice * timeNumber;
             AplyDiscount(BicycleCount);
         }
 
-        public int CaluclateTime(string identifyTime, int timeNumber)
+        public int CaluclateTime(string identifyTime)
         {
-            var result =  TimeRent.CalculateTime(identifyTime, timeNumber);
+            var result =  TimeRent.CalculateTime(identifyTime);
             return result.Prices.PriceChoise;
         }
 

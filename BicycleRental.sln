@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EAADDD06
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B3195F54-B481-40B2-B1AD-F1D7609A213A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalBicycle.Test", "RentalBicycle.Test\RentalBicycle.Test.csproj", "{E80849A4-D594-4FFA-95AE-8C5363F94E43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleRental.Test", "RentalBicycle.Test\BicycleRental.Test.csproj", "{E80849A4-D594-4FFA-95AE-8C5363F94E43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
