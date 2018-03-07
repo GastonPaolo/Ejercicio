@@ -1,0 +1,7 @@
+C:\ProyectosDePrueba\ExamenBicicleta\BicycleRental\RentalBicycle.Test\bin\Debug\RentalBicycle.Test.dll
+C:\ProyectosDePrueba\ExamenBicicleta\BicycleRental\RentalBicycle.Test\bin\Debug\RentalBicycle.Test.pdb
+C:\ProyectosDePrueba\ExamenBicicleta\BicycleRental\RentalBicycle.Test\bin\Debug\BicycleRental.exe
+C:\ProyectosDePrueba\ExamenBicicleta\BicycleRental\RentalBicycle.Test\bin\Debug\BicycleRental.pdb
+C:\ProyectosDePrueba\ExamenBicicleta\BicycleRental\RentalBicycle.Test\obj\Debug\RentalBicycle.Test.csprojResolveAssemblyReference.cache
+C:\ProyectosDePrueba\ExamenBicicleta\BicycleRental\RentalBicycle.Test\obj\Debug\RentalBicycle.Test.dll
+C:\ProyectosDePrueba\ExamenBicicleta\BicycleRental\RentalBicycle.Test\obj\Debug\RentalBicycle.Test.pdb

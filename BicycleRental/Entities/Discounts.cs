@@ -1,23 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BicycleRental.Entities
+﻿namespace BicycleRental.Entities
 {
     public class Discounts
     {
         public TypeDiscount TypeDiscount { get; set; }
-        public int Percentage { get; set; }
+        public double Percentage { get; set; }
 
-        public Discounts ApplyDiscount()
+        public Discounts ApplyDiscount(int bycicle)
         {
-            return new Discounts
+            if (bycicle >= 3)
+            {
+                return new Discounts
                 {
                     TypeDiscount = TypeDiscount.Family,
-                    Percentage = 30
-            };
+                    Percentage = 0.30
+                };
+            }
+            else
+            {
+                return new Discounts
+                {
+                    TypeDiscount = TypeDiscount.None,
+                    Percentage = 1
+                };
+            }
         }
     }
 }

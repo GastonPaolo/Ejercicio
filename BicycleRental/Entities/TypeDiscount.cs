@@ -9,6 +9,7 @@ namespace BicycleRental.Entities
     public enum TypeDiscount
     {
         Family,
+        None
 
     }
 }

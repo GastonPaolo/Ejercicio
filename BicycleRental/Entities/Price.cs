@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BicycleRental.Entities
+﻿namespace BicycleRental.Entities
 {
     public class Price
     {
-        const int Hour = 5;
-        const int Day = 20;
-        const int Week = 60;
+        public int PriceChoise { get; set; }
+
+        public int Hour = 5;
+        public int Day = 20;
+        public int Week = 60;
     }
 }
