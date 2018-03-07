@@ -22,7 +22,6 @@
                 Discounts = Discounts,
                 BicycleCount = BicycleCount,
             };
-
         }
 
         public void CalculatePrice(string identifyTime, int timeNumber)
@@ -40,8 +39,9 @@
 
         private void AplyDiscount(int bicycleCount)
         {
-            Discounts.ApplyDiscount(bicycleCount);
-            TotalPrice =  TotalPrice * Discounts.Percentage;
+            var discount = Discounts.ApplyDiscount(bicycleCount);
+            TotalPrice =  TotalPrice - TotalPrice * discount.Percentage;
+            Discounts = discount;
         }
     }
 }

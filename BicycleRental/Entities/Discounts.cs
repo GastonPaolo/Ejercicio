@@ -20,7 +20,7 @@
                 return new Discounts
                 {
                     TypeDiscount = TypeDiscount.None,
-                    Percentage = 1
+                    Percentage = 0
                 };
             }
         }
