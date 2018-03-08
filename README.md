@@ -1,7 +1,6 @@
 # Alquiler de Bicicletas
-# README #
-Documento para poner en marcha la Aplicacion RentBicycle
 
+Documento para poner en marcha la Aplicacion RentBicycle
 ### Repositorio RentBicycle  ###
 
 * Quick summary
@@ -9,19 +8,14 @@ Documento para poner en marcha la Aplicacion RentBicycle
 
 ### Como levantar la Aplicacion? ###
 * Necesita Framework Instalado 4.6.1
-IDE utilizado VISUAL Studio 2015
-* Configuration
-No posee Configuracion alguna se corren Los test y una Aplicacion de Consola en caso de querer
-* Dependencies
-Las Dependecias todas son bajadas de Nuget
-* Database configuration
-No Posee para simplificar la app
-* Como Correr los Test
-Simplemente darle run a los test de la app y correran
-* Deployment instructions
-Esta Aplicacion no se va Deployar en ningun Ambiente.
+* IDE utilizado VStudio 2015
+* Configuration: No posee Configuracion alguna se corren Los test y una Aplicacion de Consola en caso de querer
+* Database configuration: No Posee para simplificar la app
+* Como Correr los Test: Simplemente darle run a los test de la app y correran
+* Deployment instructions: Esta Aplicacion no se va Deployar en ningun Ambiente.
+* Correr la app con la Consola: Para agregar los paramentros necesarios por ejemplo: "4 d 4" en la parte de DEBUG paramentros agregarlos.
 
-### Contribution guidelines ###
+### Contribution ###
 * Cada metodo Creado debe Tener su Test Correspondiente
 * Desarrollar con metodologia TTD 
 
